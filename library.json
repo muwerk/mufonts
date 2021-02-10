@@ -1,0 +1,25 @@
+{
+    "name": "mufonts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/muwerk/mufonts.git"
+    },
+    "keywords": "font gfx display",
+    "description": "A collection of fonts compatible with Adafruit GFX library and some display mupplets from muwerk",
+    "authors": [
+        {
+            "name": "Dominik Schlösser",
+            "email": "dsc@dosc.net",
+            "maintainer": true
+        },
+        {
+            "name": "Leo Moll",
+            "email": "leo@yeasoft.com",
+            "maintainer": true
+        }
+    ],
+    "dependencies": {},
+    "version": "0.1.0",
+    "frameworks": "arduino",
+    "platforms": "*"
+}
