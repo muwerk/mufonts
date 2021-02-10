@@ -30,7 +30,7 @@ ustd::DisplayMatrixMAX72XX matrix("matrix", D8, 8, 1, 1);
 
 ...
     matrix.begin(&sched);
-    matrix.addfont(&muMatrix8ptRegular_font);
+    matrix.addfont(&muMatrix8ptRegular);
 
 ...
     sched.publish( "matrix/display/font/set" "1");
@@ -52,7 +52,7 @@ name in place of the system font:
 
 ...
 
-  display.setFont(&muMatrix8ptRegular_font);  // choose font
+  display.setFont(&muMatrix8ptRegular);  // choose font
   display.setTextSize(1);
   display.setTextColor(1);
   display.setTextWrap(false);

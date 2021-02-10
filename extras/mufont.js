@@ -152,7 +152,7 @@ glyphs.forEach( glyph => {
 process.stdout.write( '};\n\n' );
 
 // output font
-process.stdout.write( `const GFXfont ${filename}_font PROGMEM = {
+process.stdout.write( `const GFXfont ${filename} PROGMEM = {
 	(uint8_t *) ${filename}_bitmaps,
 	(GFXglyph *) ${filename}_glyphs,
 	0x${first},

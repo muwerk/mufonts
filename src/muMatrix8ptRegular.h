@@ -123,7 +123,7 @@ const GFXglyph muMatrix8ptRegular_glyphs[] PROGMEM = {
 	{0x016d, 5, 3, 6, 0, -5},	 // 0x7e '~'
 };
 
-const GFXfont muMatrix8ptRegular_font PROGMEM = {
+const GFXfont muMatrix8ptRegular PROGMEM = {
 	(uint8_t *) muMatrix8ptRegular_bitmaps,
 	(GFXglyph *) muMatrix8ptRegular_glyphs,
 	0x32,
