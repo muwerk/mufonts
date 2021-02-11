@@ -4,7 +4,11 @@
         "type": "git",
         "url": "https://github.com/muwerk/mufonts.git"
     },
-    "keywords": "font gfx display",
+    "keywords": [
+        "font",
+        "gfx",
+        "display"
+    ],
     "description": "A collection of fonts compatible with Adafruit GFX library and some display mupplets from muwerk",
     "authors": [
         {
@@ -18,7 +22,14 @@
             "maintainer": true
         }
     ],
-    "dependencies": {},
+    "export": {
+        "exclude": [
+            "library.properties",
+            "extras/*"
+        ]
+    },
+    "license": "MIT",
+    "homepage": "https://github.com/muwerk/mufonts",
     "version": "0.1.0",
     "frameworks": "arduino",
     "platforms": "*"
