@@ -155,8 +155,8 @@ process.stdout.write( '};\n\n' );
 process.stdout.write( `const GFXfont ${filename} PROGMEM = {
 	(uint8_t *) ${filename}_bitmaps,
 	(GFXglyph *) ${filename}_glyphs,
-	0x${first},
-	0x${last},
+	0x${first.toString( 16 )},
+	0x${last.toString( 16 )},
 	8
 };
 

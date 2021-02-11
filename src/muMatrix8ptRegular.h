@@ -38,7 +38,7 @@ const GFXglyph muMatrix8ptRegular_glyphs[] PROGMEM = {
 	{0x001b, 3, 7, 4, 0, -7},	 // 0x29 ')'
 	{0x001e, 5, 6, 6, 0, -6},	 // 0x2a '*'
 	{0x0022, 5, 5, 6, 0, -6},	 // 0x2b '+'
-	{0x0026, 2, 3, 3, 0, -2},	 // 0x-1 '￿'
+	{0x0026, 2, 3, 3, 0, -2},	 // 0x2c ','
 	{0x0027, 4, 1, 5, 0, -4},	 // 0x2d '-'
 	{0x0028, 1, 1, 2, 0, -1},	 // 0x2e '.'
 	{0x0029, 3, 7, 4, 0, -7},	 // 0x2f '/'
@@ -126,8 +126,8 @@ const GFXglyph muMatrix8ptRegular_glyphs[] PROGMEM = {
 const GFXfont muMatrix8ptRegular PROGMEM = {
 	(uint8_t *) muMatrix8ptRegular_bitmaps,
 	(GFXglyph *) muMatrix8ptRegular_glyphs,
-	0x32,
-	0x126,
+	0x20,
+	0x7e,
 	8
 };
 

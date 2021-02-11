@@ -30,7 +30,7 @@
     },
     "license": "MIT",
     "homepage": "https://github.com/muwerk/mufonts",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "frameworks": "arduino",
     "platforms": "*"
 }

@@ -14,6 +14,7 @@ The following fonts are included in this library:
 | Font Name                 | yAdvance  | Baseline  | Description
 |---------------------------|-----------|-----------|--------------------------------------------------------
 | `muMatrix8ptRegular`      | 8px       | 7px       | Proprotional font optimized for one line led displays like 8x8 mudules driven by max7219 or similar
+| `muHeavy8ptBold`          | 8px       | 7px       | Semiproportional ultra heavy font for one line led displays like 8x8 mudules driven by max7219 or similar
 
 
 Using Fonts with a muwerk mupplet
